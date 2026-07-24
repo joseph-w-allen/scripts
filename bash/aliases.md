@@ -13,5 +13,5 @@ alias proton-cleanup="sudo pkill openvpn; sudo rm -f /tmp/protonvpn.log" (See my
 ### The following one only applies to other users of TryHackMe who connect to the site via VPN.
 
 ```
-alias thmvpn="sudo openvpn \[/PATH/TO/TryHackMe/CONFIGFILE\].ovpn"
+alias thmvpn="sudo openvpn [/PATH/TO/TryHackMe/CONFIGFILE].ovpn"
 ```
