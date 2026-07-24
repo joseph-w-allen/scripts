@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-# Most of this was borrowed from "define" by BreadOnPenguins (https://github.com/BreadOnPenguins/scripts/blob/master/shortcuts-menus/define). My main modifications were to convert it into a Spanish CLI dictionary using the Real Academia Española API (https://rae-api.com/) and to print more definitions by default.
+# Most of this was borrowed from "define" by BreadOnPenguins (https://github.com/BreadOnPenguins/scripts/blob/master/shortcuts-menus/define).
+# My main modifications were to convert it into a Spanish CLI dictionary using the Real Academia Española API (https://rae-api.com/)
+# and to print more definitions by default.
 
 palabra=${1:-$(xclip -o -selection primary 2>/dev/null || wl-paste 2>/dev/null)}
 
