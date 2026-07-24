@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# This script quickly copies my library card number to the clipboard so I can simply paste it into a login portal rather than type it out by hand, something that happened to me several times and was annoying enough that I made this.
+# This script quickly copies my library card number to the clipboard so I can simply paste it into a login portal rather than type it out by hand,
+# something that happened to me several times and was annoying enough that I made this.
 
 echo -n '[LIBRARY CARD NUMBER]' | xclip -selection clipboard
 

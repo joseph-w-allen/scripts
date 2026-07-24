@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Script for automating credential input and connection to ProtonVPN via OpenVPN on the command line as an alternative to the ProtonVPN app. It then runs ProtonVPN in the background, allowing you close the window and end the terminal session while remaining connected.
+# Script for automating credential input and connection to ProtonVPN via OpenVPN on the command line as an alternative to the ProtonVPN app.
+# It then runs ProtonVPN in the background, allowing you close the window and end the terminal session while remaining connected.
 
 # The script must be run as sudo. If you try to run it first then enter sudo credentials, it will not work as intended.
 if [[ $EUID -ne 0 ]]; then

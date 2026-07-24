@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# A prettier way to display the number of lines in a file than the default `wc -l` command. This one was mostly just for fun so there's no error handling or anything.
+# A prettier way to display the number of lines in a file than the default `wc -l` command.
+# This one was mostly just for fun so there's no error handling or anything.
 
 file=$1
 
